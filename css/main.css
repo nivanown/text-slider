@@ -28,8 +28,10 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 0 12px;
+  gap: 5px 12px;
+  padding: 0 15px;
   font-size: 14px;
+  text-align: center;
   line-height: 19px;
   opacity: 0;
   visibility: hidden;
