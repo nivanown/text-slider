@@ -25,6 +25,7 @@ body {
 
 .offer-slider .swiper-slide {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 0 12px;
@@ -77,3 +78,24 @@ body {
 .offer-slider__link:hover:after {
   opacity: 0;
   }
+
+/* 580 */
+@media (max-width: 580px) {
+
+.offer-slider .swiper-slide {
+  gap: 0 8px;
+  font-size: 12px;
+  line-height: 18px;
+  }
+
+}
+
+/* 360 */
+@media (max-width: 360px) {
+
+.offer-slider .swiper-slide {
+  gap: 0 5px;
+  font-size: 10px;
+  }
+
+}
