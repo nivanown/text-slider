@@ -4,6 +4,7 @@ var swiper = new Swiper(".offer-slider", {
     delay: 3000,
     disableOnInteraction: false,
   },
+  autoHeight: true,
   loop: true,
   spaceBetween: 0,
   effect: "fade",
