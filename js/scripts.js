@@ -7,4 +7,8 @@ var swiper = new Swiper(".offer-slider", {
   loop: true,
   spaceBetween: 0,
   effect: "fade",
+  fadeEffect: {
+    crossFade: true,
+  },
+  speed: 1000,
 });
